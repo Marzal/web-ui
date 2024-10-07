@@ -901,6 +901,7 @@
     "platforms": [
       "Mobile",
       "Android",
+      "F-Droid",
       "iOS"
     ],
     "supportedElements": [
