@@ -2718,6 +2718,9 @@
       },
       {
         "elementName": "Remote Item"
+      },
+      {
+        "elementName": "Txt"
       }
     ]
   },
@@ -3354,6 +3357,25 @@
       }
     ]
   },
+  {
+    "appName": "Nuotit",
+    "appType": ["music player", "app", "podcast player"],
+    "appUrl": "https://nuotit.org",
+    "appIconUrl": "nuotit_logo.png",
+    "tagLine": "Premium sound quality for your Podcasts and Audio in iOS and iPad",
+    "platforms": ["iOS", "Mobile","iPad OS"],
+    "platformLinks": {
+      "iOS": "https://apps.apple.com/app/nuotit-podcasts-and-audio/id6503049956"
+    },
+    "supportedElements": [
+      {
+        "elementName": "Transcript"        
+      },
+      {
+        "elementName": "Chapters"
+      }
+    ]
+  },   
   {
     "appName": "PodRocket",
     "appType": ["website", "directory"],
@@ -4043,6 +4065,70 @@
       {
         "elementName": "Chapters",
         "elementURL": "https://github.com/mp3chapters/mp3chapters.github.io"
+      }
+    ]
+  },
+  {
+    "appName": "PrestoCast",
+    "appType": ["app", "website", "hosting"],
+    "appUrl": "https://prestocast.com/",
+    "appIconUrl": "PrestoCast.png",
+    "tagLine": "Send audio notes. Get a podcast.",
+    "platforms": ["Web", "Mobile"],
+    "platformLinks": {
+      "Web": "https://prestocast.com/"
+    },
+    "supportedElements": [
+      {
+        "elementName": "Funding",
+        "elementURL": "https://prestocast.com/docs#telegram"
+      },
+      {
+        "elementName": "GUID"
+      },
+      {
+        "elementName": "License",
+        "elementURL": "https://prestocast.com/changelog#v2026-03-16"
+      },
+      {
+        "elementName": "Trailer",
+        "elementURL": "https://prestocast.com/changelog#v2026-03-10"
+      },
+      {
+        "elementName": "Medium"
+      },
+      {
+        "elementName": "Person",
+        "elementURL": "https://prestocast.com/changelog#v2026-03-10"
+      },
+      {
+        "elementName": "Location",
+        "elementURL": "https://prestocast.com/changelog#v2026-03-10"
+      },
+      {
+        "elementName": "Podroll",
+        "elementURL": "https://prestocast.com/changelog#v2026-03-10"
+      },
+      {
+        "elementName": "Remote Item"
+      },
+      {
+        "elementName": "Txt",
+        "elementURL": "https://prestocast.com/changelog#v2026-03-15"
+      },
+      {
+        "elementName": "OP3",
+        "elementURL": "https://prestocast.com/changelog#v2026-03-12"
+      },
+      {
+        "elementName": "Locked"
+      },
+      {
+        "elementName": "Episode"
+      },
+      {
+        "elementName": "Podping",
+        "elementURL": "https://prestocast.com/changelog#v2026-03-16"
       }
     ]
   }
